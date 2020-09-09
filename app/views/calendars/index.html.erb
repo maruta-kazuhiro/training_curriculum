@@ -10,7 +10,11 @@
 
   <div class=calendar>
     <% @week_days.each do |day| %>
+<<<<<<< Updated upstream
       <div class='item'>
+=======
+     <div class='item'>
+>>>>>>> Stashed changes
         <div class='date'>
           <%= day[:month] %>/<%= day[:date] %>
         </div>
@@ -20,6 +24,7 @@
             <li class='plan-list'>・<%= plan %></li>
           <% end %>
         <% end %>
+        </div>
         </ul>
       </div>
     <% end %>
